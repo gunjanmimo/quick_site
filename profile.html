@@ -3,6 +3,12 @@
   <link rel="shortcut icon" type="image/png" href="https://www.nearbygrocer.com/img/logo.svg"/>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
   <title>Profile</title>
+  <style>
+    #icons{
+      height: 228px;
+      width: 222px;
+    }
+  </style>
 </head>
 <body>
     <!-------nav bar------------->
@@ -60,24 +66,24 @@ align-items: center;">
             <th style="padding-right: 20px;padding-top: 20px;">
                 <div class="card" style="width: 18rem;">
                     <div class="card-body">
-                      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSmR7T8sSBO4ERtIkbowXb0YvYY-ZjplgmRmojBU_Ri6d7XqxAb&usqp=CAU" alt="">
-                      <a href="order.html" class="btn btn-primary">Go somewhere</a>
+                      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSmR7T8sSBO4ERtIkbowXb0YvYY-ZjplgmRmojBU_Ri6d7XqxAb&usqp=CAU"  alt="">
+                      <a href="order.html" class="btn btn-primary">orders</a>
                     </div>
                   </div>
             </th>
             <th style="padding-right: 20px;padding-top: 20px;">
                 <div class="card" style="width: 18rem;">
                     <div class="card-body">
-                      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSmR7T8sSBO4ERtIkbowXb0YvYY-ZjplgmRmojBU_Ri6d7XqxAb&usqp=CAU" alt="">
-                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                      <img id="icons" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAdVBMVEX///8AAACKioqjo6OPj4/m5ua9vb2goKCqqqru7u6SkpLy8vL7+/tfX1/Z2dn09PRCQkIzMzNlZWVXV1eEhITe3t7o6Og5OTm1tbXR0dF7e3slJSVJSUnIyMhzc3PAwMAaGhpNTU0gICArKysTExNtbW0vLy+A+xRhAAAIP0lEQVR4nO2da3viOAyFGyghCYFwS+mEWy9M//9P3GVZOgUi2Y6ObPMM7/cmPiW2LFmSn578UFaTNOsPT/SzdFKVnt7sgcG22E2TW6a7YjsIPTgxo32ruJ8y96PQg+zOKNuw6s5ssrsUWaULK3knFmkVesCODJZvDvqOvC3vaU7Wc0d5J+Z16IFbUo876TsyvgeNedNZ35EmDy3AxFCk78gwtASWyUwsMElmk9AyaJYAfUeWoYUQ1PzuxYVplCtOBtN3JAst5xbZEnpLE1rQFSOXLZodi6g2qy+INfSa2UtoWX94UdB3JBqJv5QEJkkkllFPYJL8Ci3uyEBRYJJE4FKNVAUmSfAVtVorK1yHdv7xdvCaRViBTnvt1bj3XBTFc2+8cvmzoPvwV2txRXrp2uZpYS3zNZC6f6ntRjhP25eLUWoZzwnnadiEQ1d9Li6R921+yY03RVcU5rF9bo1P2X6aH1N4UNPCxKwvtXpQatYYZvtm9CfsY0rG+NVMUQdJ3zAop0iEMQLSV9NBYtqt9Ryf1zM8z//uzRC1sJuBP0n5B3q3+7xHceiyMkwO7DN9exnsT/jRbTSDD+6hnkNTbNzio6s7ULG/ot+Yxo4bSvfvif3H7YDjN5JzI5FYZ3YX4fNYituvyTwBzlvxuHcrGcfe1Q5ew9jFtb8UnD09Cvn2itkM7gFjt+M3PQi5K8c4nb8BY7eioseAmCrMJPcVlaJXgy/ETCm/yOf7imfQsQfMCOj/4BzyfDPkAFBeHL3YgF5gYEu+392haId2M8xBEQTP1OsPsFeQ+9Nn2Cs4yOgYLhOGjGqsYK9goJ173L6R3vf6cPXJ40LkQkcu1z4OFMmsEqSxIg2GjywU0jVEhhnIIIkPT586T5tC30JFFz2ctVXUngobDKPiQF/6W1My0IAy9ydIo68frSFnCPZogQxn6AcVSWMBfg/1Gn1zQX0+uC3bCWrjhp0MbVAHMtillF5M9Y9oKIVo143a1egrpGJhaFNMmQtpLM/M36sQHa6lvNBwCtHzg5rvD4VyHgpRPBTq8VCI4qFQj4dCFA+FejwUongo1OOhsI1qNEn7w+Inw346GXHR3btRWNZZ807FzQ7vTVYTyQ33oTBP5+Yk9c952nbweA8KU7vuNEc2t1HQ6BXWrt0HelfZVJErnHRp3zK/OPmIWuGga/uW8Y9jl4gVjiS9B5rvTIR4FVoX7BGcswFiVZh37y90ZpzHrJBOCHNhG69CU2WPLc+RKizlX+iZcRmhwqxyKl82sKqoxKRwCpcWpaAOfFJ7onAKfaGvEN1LyBX1tC9z8a822iXBofUl2rneob/RI6rfKWbPIkUxnZ2r6PKIYoUXqmugFDWLYdnowwNarUDeQwv75l1HIFN16B2dSkS6pMw/M43FRhqewKJRp+favlqXN7xAbHtSOfjSkrh+QoUf0dB5JADohG9kiAIDuFBPs79lV7B1CWynj0BAO4FoN7jsBrLaMjZTcQJpMOxPc30CbMWn22a2O7gqL/mFBzrgisdhwYvVeFfs3LqXcnyiBILadS/S81c1cLplhwFVbgnxmxaXkdwJRCPKh+p2L45pLIj/G6hgDhBDXLeFjmrAczGuvvyoYt3eTyKXS8QcYsg3NFTwTx6exGxrmL5XdtDrgXguQnpjlVLzxbVBkK6oK8REFPsVXIBa/J0i/Aup88vHp9+FT0e4waZ+wSZ4qyydiYj0crItlCX8dySdA4jGUcI8IFPASLiOIXY1QrNsiqYII0BrgELZCIxta6SnrnKB0omirVDekUe6K9VWKN+ZStMvlOchIDFDarCU11KAEyz2LPiJwnR7vRuFunsagP8kVsjHbcWx5ggUsqudPH4gVyiPBmv6h3H8hswgVB/uUSH5nSLSceNQeGg/QhnwV3bYEYfC9kgGJhFQrhCUCnU7ENCpq9zio9JMrnuBWVz4ZYU8hw+V+HwdbpAGR87IQ1Go818thYBzYNBItBTKBf4FCkF3wispRDQVBRWRKClElJeAEjGUFCLSMUAGUUkhIgeTvb3KHiWFiNsKKkx2sI7CN0gDc0wBs47CMUIgaCw6CjF3lmDyg3UUYvKEc4SjqqPwALoWBZJdqqIQlWEKsfkqClHpl5D6bRWFsLpuxGBUFKIEQqpjNRTirkVB2AsNhcCaEkBXDwWFsCToJ0hgTEEhspU/IHiroBBa0S0/I8IrxF79JHeD8QrBBYjspeBBFH5gBcp3bte2S2xjcQUzJ0rpgK7vKGUuNrYDXpEvNhiX4XfxYQH+km5x4stlcpS4KFXhhjnxj/jzpE98Kqlxz3oldvX/LO9i43NQuSRQ7gjvTnNxIK+bRi+k/yO2iUkyXRZLwFEP2haeiaMP1hG1XliIMj0EeheQg4pJxSje1BlHXb7qncCg+l0Ruhfmgo7aROCu/24lfJ8a9YtIQ/eG9HBtNSg3oyPoC13bCGsy9K90fgrbb0j/vuP/CGcVVS3hT0L1g9bvA/2NuIC9E5DSdFtwDebtweRdWON/+6a7WbsFeE2AHWO95sFxSPQv8MmvP6zn87L4MxoezcQlvky/N0N/i5/YlGIPdjMv+l0/V1422zSltr/YhFhEL9HtEa3R89mZF72+kZvAX+g30hY2FOi7TQV0vi2PY4xrbYkAH4NTj6k5gyooPKFxAiomx+3iespR384MMJeYLOOagJeM5N9qgWzxrEImCRlPA26yHZg03c7DPxrt+7hwlFv37WqzDb8DdWPbs++Dtu4F9ZC6M0ibjSkL57Bp0pjXTjN5nS3n7Wl6s/kyq2O1fK6UVb1/zYZnstd9XXmadv8A+M6OBIjk43YAAAAASUVORK5CYII=" alt="">
+                      <a href="#" class="btn btn-primary">security and privacy</a>
                     </div>
                   </div>
             </th>
             <th style="padding-right: 20px;padding-top: 20px;">
                 <div class="card" style="width: 18rem;">
                     <div class="card-body">
-                      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSmR7T8sSBO4ERtIkbowXb0YvYY-ZjplgmRmojBU_Ri6d7XqxAb&usqp=CAU" alt="">
-                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                      <img id="icons" src="https://images.vexels.com/media/users/3/132609/isolated/preview/6f741448384247386c3d9aec297b5f1b-wallet-icon-silhouette-by-vexels.png" alt="">
+                      <a href="#" class="btn btn-primary">wallet</a>
                     </div>
                   </div>
             </th>
@@ -87,24 +93,24 @@ align-items: center;">
             <th style="padding-right: 20px;padding-top: 20px;">
                 <div class="card" style="width: 18rem;">
                     <div class="card-body">
-                      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSmR7T8sSBO4ERtIkbowXb0YvYY-ZjplgmRmojBU_Ri6d7XqxAb&usqp=CAU" alt="">
-                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                      <img id="icons" src="https://i.pinimg.com/originals/61/04/28/610428721060a3e52e67e032a00c0016.png" alt="">
+                      <a href="#" class="btn btn-primary">your address</a>
                     </div>
                   </div>
             </th>
             <th style="padding-right: 20px;padding-top: 20px;">
                 <div class="card" style="width: 18rem;">
                     <div class="card-body">
-                      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSmR7T8sSBO4ERtIkbowXb0YvYY-ZjplgmRmojBU_Ri6d7XqxAb&usqp=CAU" alt="">
-                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                      <img id="icons" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcS7dujgdbUTw0XXU6biaeDL3fAPgjrMBtoN98A1Ilz-NlRFbCiC&usqp=CAU" alt="">
+                      <a href="#" class="btn btn-primary">payment options</a>
                     </div>
                   </div>
             </th>
             <th style="padding-right: 20px;padding-top: 20px;">
                 <div class="card" style="width: 18rem;">
                     <div class="card-body">
-                      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSmR7T8sSBO4ERtIkbowXb0YvYY-ZjplgmRmojBU_Ri6d7XqxAb&usqp=CAU" alt="">
-                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                      <img id="icons"src="data:image/png;base64,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" alt="">
+                      <a href="#" class="btn btn-primary">gold members</a>
                     </div>
                   </div>
             </th>
